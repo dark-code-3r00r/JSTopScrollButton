@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+section{
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.section1{
+  background: cornflowerblue;
+} 
+
+.section2 {
+  background: darkcyan;
+}
+
+.section3 {
+  background: darkgray;
+}
+
+.section4 {
+  background: darkseagreen;
+}
+
+.to-top{
+  position: fixed;
+  right: 32px;
+  bottom: 16px;
+  background: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 32px;
+  pointer-events: none;
+  transform-box: all .5s;
+  opacity: 0;
+}
+
+.to-top.xyz{
+  opacity: 1;
+  pointer-events: auto;
+}
